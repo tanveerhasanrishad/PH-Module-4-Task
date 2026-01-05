@@ -1,0 +1,50 @@
+main section {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 60px;
+}
+
+.team-container {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.member {
+  width: 300px;
+  height: 400px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  background-color: lavender;
+  box-shadow: 10px 10px 5px rgba(128, 128, 128, 0.367);
+}
+
+.member img {
+  width: 60%;
+  height: 40%;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.role {
+  margin: 0;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.about {
+  text-align: left;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
