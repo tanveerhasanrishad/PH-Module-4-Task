@@ -1,0 +1,23 @@
+main h2 {
+  text-align: center;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+main caption {
+  font-weight: 600;
+}
+
+main table {
+  margin: 0 auto;
+}
+
+th,
+td {
+  border: 2px solid rgb(112, 111, 111);
+  padding: 5px;
+}
+
+th {
+  text-align: center;
+}
